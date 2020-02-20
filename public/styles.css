@@ -1,0 +1,11 @@
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.viewusers a{
+    width: 20%;
+    background: #dadfea;
+    text-align: center;
+    border-radius: 20px;
+}

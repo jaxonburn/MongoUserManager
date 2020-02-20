@@ -1,0 +1,17 @@
+doctype html
+head
+    title
+body
+    form(action="/users/edit" method="POST")
+        input(name="first" value=`${data.first}`)
+        input(name="last" value=`${data.last}`) 
+        input(name="age" value=`${data.age}`) 
+        input(name="email" value=`${data.email}`)  
+        input(type="hidden" name='id' value=`${data.id}`)
+        input(type="hidden" name='createdDate' value=`${data.createdDate}`)
+        input(type="submit")
+        
+
+       
+     
+    
